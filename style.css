@@ -1,3 +1,46 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header,
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    flex-direction: row;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.logotext {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.footer {
+    align-items: center;
+    padding: 24px;
 }
